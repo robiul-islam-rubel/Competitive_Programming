@@ -1,0 +1,10 @@
+book = []
+book.append("Learn C")
+book.append("Learn C++")
+book.append("Learn Java")
+book.append("Learn Python")
+print(book)
+book.pop()
+#print(book)
+print("Now top is : ")
+print(book[-1])
